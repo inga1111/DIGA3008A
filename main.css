@@ -8,7 +8,7 @@ nav{
 
 nav ul{
     font-style: normal;
-    font-family:;
+    font-family:'Times New Roman', Times, serif;
     color: black;
     list-style: none;
     margin: 0;
@@ -25,7 +25,7 @@ nav ul li{
     text-transform: uppercase;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
-    
+
 
 
 }
