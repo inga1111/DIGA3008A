@@ -1,0 +1,31 @@
+nav{
+    background-color: none;
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px #ffd0df;
+    position: sticky;
+}
+
+nav ul{
+    font-style: normal;
+    font-family:;
+    color: black;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+
+
+nav ul li{
+    display: inline-block;
+    font-size: 18px;
+    margin: 40px;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    
+
+
+}
