@@ -9,15 +9,15 @@ body {
 
 footer {
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 2px;
 }
 
 .about-me {
     text-align: center;
-    margin-top: 450px;
+    margin-top: 470px;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
     max-width: 100%;
 }
