@@ -1,8 +1,8 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: url(/Images/homepage.jpeg) no-repeat ;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(238, 145, 161);
+    font-size: larger;
+    background: url(/Images/newer\ homepage.jpeg) no-repeat ;
     background-size: cover;
     height: 100vh;
 }
-
-.hero h1 { text-align: left;}
