@@ -59,5 +59,36 @@ transition: all 0.3s ease;
     border-radius: 999px;
 }
 
+footer {
+    background-color: #ffffff07;
+    color: white;
+    padding: 2px 0;
+    text-align: left;
+}
+                                                                    
+.footer-content {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
 
 }
