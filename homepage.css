@@ -2,7 +2,22 @@ body {
     font-family:'Times New Roman', Times, serif;
     color: rgb(238, 145, 161);
     font-size: larger;
-    background: url(/Images/newer\ homepage.jpeg) no-repeat ;
+    background: url(/Images/homepage\ final.jpeg) no-repeat ;
     background-size: cover;
     height: 100vh;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.about-me {
+    text-align: center;
+    margin-top: 450px;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 2px;
+    max-width: 100%;
 }

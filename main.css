@@ -1,8 +1,8 @@
 nav{
     background-color: none;
-    height: 100px;
+    height: 60px;
     width: 100%;
-    border-bottom: 2px #ffd0df;
+    border-top: 2px #ffd0df;
     position: sticky;
 }
 
