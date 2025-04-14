@@ -38,7 +38,7 @@ body {
         font-family:'Times New Roman', Times, serif;
         color: rgb(238, 145, 161);
         font-size: larger;
-        background: url("./Images/blogbackground.jpg");
+        background: url("./Images/designbg.jpeg");
         background-size: cover;
         height: 100vh;
     }
@@ -75,7 +75,7 @@ body{
     align-items: center;
     margin: 20px 0px;
     flex-wrap:wrap;
-    border: 1px pink;
+    border: 1px rgb(235, 110, 131);
     border-radius: 30px;
     flex-wrap: wrap;
     align-content: stretch;
@@ -84,8 +84,8 @@ body{
 
 .blog-box{
     width: 350px;
-    background-color: #eadfcb;
-    border: 3.5px solid hotpink;
+    background-color: pink;
+    border: 3.5px solid black;
     margin: 20px;
     border-radius: 20px;
     height: 100%;
@@ -96,7 +96,7 @@ body{
      width:auto;  
      height: 40vh; 
      padding:0px;
-     border: hotpink;
+     border: black;
      display: flex;
     }
     
