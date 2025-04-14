@@ -6,11 +6,16 @@
 
 body {
     font-family:'Times New Roman', Times, serif;
-    color: black;
+    color: hotpink;
     font-size: larger;
     background: url("./Images/portfoliobackground.jpg");
     background-size: cover;
     height: 100vh;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
 }
 
 footer {
