@@ -17,13 +17,6 @@ footer {
     text-align: center;
     font-size: 12px;
     letter-spacing: 2px;
+    margin-top: 510px;
 }
 
-.about-me {
-    text-align: center;
-    margin-top: 490px;
-    color: black;
-    font-size: 18px;
-    letter-spacing: 3px;
-    max-width: 100%;
-}

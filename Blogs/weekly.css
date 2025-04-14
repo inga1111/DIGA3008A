@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-size:large;
+    background-color: #eadfcb;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: hotpink;
+    text-align: center;
+    font-style: italic;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hotpink;
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 510px;
+}
