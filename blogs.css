@@ -85,7 +85,7 @@ body{
     }
     
     .blog-text p{
-    color:pink);
+    color:pink;
     font-size: 0.9rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
