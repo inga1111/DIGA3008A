@@ -149,9 +149,14 @@ body{
     transition: all ease 0.3s;
     }
 
+    ul{
+        text-align: center;
+        margin-top: 570px;
+    }
 
 footer {
     text-align: center;
     font-size: 12px;
     letter-spacing: 2px;
+    margin-top: 150px;
 }

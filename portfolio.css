@@ -8,7 +8,7 @@ body {
     font-family:'Times New Roman', Times, serif;
     color: hotpink;
     font-size: larger;
-    background-color: #eadfcb;
+    background: url("./Images/blogbackground.jpg");
     background-size: cover;
     height: 100vh;
 }
@@ -27,6 +27,12 @@ p{
     text-align:left;
     margin-top: 30px;
 }
+
+ul{
+    text-align: center;
+    margin-top: 600px;
+}
+
 footer {
     text-align: center;
     font-size: 12px;
