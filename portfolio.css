@@ -8,7 +8,7 @@ body {
     font-family:'Times New Roman', Times, serif;
     color: black;
     font-size: larger;
-    background: url("./Images/designbackground.jpg");
+    background: url("./Images/portfoliobackground.jpg");
     background-size: cover;
     height: 100vh;
 }

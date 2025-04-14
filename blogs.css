@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(238, 145, 161);
+        font-size: larger;
+        background: url("./Images/blogbackground.jpg");
+        background-size: cover;
+        height: 100vh;
+    }
+
 body{
     margin: 2px;
     padding: 0px;
@@ -108,5 +118,12 @@ body{
     color:hotpink;
     transition: all ease 0.3s;
     }
+
+    footer {
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
 
 
