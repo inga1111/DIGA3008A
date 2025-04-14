@@ -1,6 +1,7 @@
-(body {
+body {
     font-family:'Times New Roman', Times, serif;
     color: rgb(238, 145, 161);
+    font-size: larger;
     background-image: url("./Images/homepagefinal.jpeg") no-repeat;
     background-size: cover;
     height: 100vh;
