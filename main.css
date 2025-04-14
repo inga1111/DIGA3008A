@@ -7,8 +7,9 @@ nav{
 }
 
 nav ul{
-    font-style: normal;
+    font-style: italic;
     font-family:'Times New Roman', Times, serif;
+    color: black;
     list-style: none;
     margin: 0;
     padding: 0;
