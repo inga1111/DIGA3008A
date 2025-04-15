@@ -34,7 +34,7 @@ h3{
     box-sizing: border-box;
 }
 
-body {
+body{
         font-family:'Times New Roman', Times, serif;
         color: rgb(238, 145, 161);
         font-size: larger;
@@ -44,8 +44,7 @@ body {
     }
 
 body{
-    margin: 2px;
-    padding: 0px;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -149,14 +148,15 @@ body{
     transition: all ease 0.3s;
     }
 
+    
     ul{
         text-align: center;
-        margin-top: 570px;
+        margin-top: 600px;
     }
 
-footer {
-    text-align: center;
-    font-size: 12px;
-    letter-spacing: 2px;
-    margin-top: 150px;
-}
+    .footer-content{
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: hotpink;
+    }

@@ -40,8 +40,8 @@ p {
     text-align: center;
     font-size: medium;
     margin-top: 15px;
-    margin-left: 4cm;
-    margin-right: 4cm;
+    margin-left: 8cm;
+    margin-right: 8cm;
 }
 
 footer {
@@ -52,14 +52,12 @@ footer {
 }
 
 section {
-    margin-top: 10px;
-    margin-left: 8cm;
-    margin-right: 4cm;
+    margin-top: 1cm;
+    text-align: center;
 }
 
 ul{
-    margin-left: 2cm;
-    margin-right: 2cm;
     margin-top: 0.8cm;
     margin-bottom: 0.8cm;
+    text-align: center;
 }
