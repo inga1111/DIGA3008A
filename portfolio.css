@@ -130,13 +130,15 @@ p{
     transition: all ease 0.3s;
     }
 
-ul{
-    text-align: center;
-    margin-top: 5cm;
-}
 
-footer {
-    text-align: center;
-    font-size: 12px;
-    letter-spacing: 2px;
-}
+    ul{
+        text-align: center;
+        margin-top: 600px;
+    }
+
+    .footer-content{
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: hotpink;
+    }

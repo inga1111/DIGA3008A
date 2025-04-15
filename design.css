@@ -28,26 +28,6 @@ h3{
     color: black;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-        font-family:'Times New Roman', Times, serif;
-        color: rgb(238, 145, 161);
-        font-size: larger;
-        background: url("./Images/designbg.jpeg");
-        background-size: cover;
-        height: 100vh;
-    }
-
-body{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 .blogs{
     display: flex;
     justify-content: center;
