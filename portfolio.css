@@ -8,7 +8,7 @@ body {
     font-family:'Times New Roman', Times, serif;
     color: hotpink;
     font-size: larger;
-    background-color: rgb(255, 210, 221);
+    background-color: #f3ece2;
     background-size: cover;
     height: 100vh;
 }
@@ -45,7 +45,7 @@ p{
 
 .blog-heading h2{
     font-size: 25px;
-    color: rgb(232, 130, 147);
+    color: rgb(213, 17, 115);
 }
 
 .blog-container{
@@ -58,22 +58,24 @@ p{
     border-radius: 30px;
     flex-wrap: wrap;
     align-content: stretch;
-    height: 20cm;
+    height: 25cm;
+    margin-left: 8cm;
 }
 
 .blog-box{
-    width: 15cm;
-    background-color: #eadfcb;
+    width: 25cm;
+    background-color: pink;
     border: 3.5px solid rgb(0, 0, 0);
     margin: 20px;
     border-radius: 20px;
-    height: 20cm;
+    height: 25cm;
     overflow: hidden;
+    margin-left: 8cm;
     }
     
     .blog-image{
      width:auto;  
-     height: 15cm; 
+     height: 21cm; 
      padding:0px;
      border: hotpink;
      display: flex;
@@ -104,12 +106,12 @@ p{
     }
     
     .blog-text .blog-title:hover{
-    color: hotpink;
+    color: rgb(108, 12, 60);
     transition: all ease 0.3s;
     }
     
     .blog-text p{
-    color:rgb(239, 124, 143);
+    color:rgb(185, 65, 105);
     font-size: 0.9rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
