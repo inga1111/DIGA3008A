@@ -64,7 +64,7 @@ p{
 .blog-box{
     width: 15cm;
     background-color: #eadfcb;
-    border: 3.5px solid hotpink;
+    border: 3.5px solid rgb(0, 0, 0);
     margin: 20px;
     border-radius: 20px;
     height: 20cm;
@@ -89,7 +89,7 @@ p{
     .blog-text{
     padding: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     }
     
     .blog-text span{
@@ -130,7 +130,7 @@ p{
 
 ul{
     text-align: center;
-    margin-top: 600px;
+    margin-top: 5cm;
 }
 
 footer {
