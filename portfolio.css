@@ -8,7 +8,7 @@ body {
     font-family:'Times New Roman', Times, serif;
     color: hotpink;
     font-size: larger;
-    background: url("./Images/blogbackground.jpg");
+    background-color: rgb(255, 210, 221);
     background-size: cover;
     height: 100vh;
 }
@@ -27,6 +27,106 @@ p{
     text-align:left;
     margin-top: 30px;
 }
+
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-heading h2{
+    font-size: 25px;
+    color: rgb(232, 130, 147);
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap:wrap;
+    border: 1px pink;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 20cm;
+}
+
+.blog-box{
+    width: 15cm;
+    background-color: #eadfcb;
+    border: 3.5px solid hotpink;
+    margin: 20px;
+    border-radius: 20px;
+    height: 20cm;
+    overflow: hidden;
+    }
+    
+    .blog-image{
+     width:auto;  
+     height: 15cm; 
+     padding:0px;
+     border: hotpink;
+     display: flex;
+    }
+    
+    .blog-image img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    }
+    
+    .blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .blog-text span{
+    color: black;
+    font-size: 0.9rem;
+    }
+    
+    .blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #000000;
+    }
+    
+    .blog-text .blog-title:hover{
+    color: hotpink;
+    transition: all ease 0.3s;
+    }
+    
+    .blog-text p{
+    color:rgb(239, 124, 143);
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+    }
+    
+    .blog-text a{
+    color: black;
+    }
+    
+    .blog-text a:hover{
+    color:hotpink;
+    transition: all ease 0.3s;
+    }
 
 ul{
     text-align: center;
