@@ -1,0 +1,93 @@
+.centerGridImg img,
+.centerGrid img {
+  transition: transform 0.25s cubic-bezier(.4,2,.6,1), box-shadow 0.2s;
+}
+
+.centerGridImg img:hover,
+.centerGrid img:hover {
+  transform: scale(1.15);
+  z-index: 2;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+}
+
+.centerGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.3rem; /* Small gap for separation */
+  width: 100%;
+  max-width: 420px;   /* 3 x 140px columns, adjust as needed */
+  height: 360px;      /* 3 x 120px rows */
+  margin: 2rem auto;
+  align-self: flex-start;
+}
+
+.centerGridImg,
+.centerGrid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: none;
+  background: #fff;
+  display: block;
+}
+
+.centerGridImg img,
+.centerGrid img {
+  transition: transform 0.25s cubic-bezier(.4,2,.6,1), box-shadow 0.2s;
+}
+
+.centerGridImg img:hover,
+.centerGrid img:hover {
+  transform: scale(1.15);
+  z-index: 2;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+}
+
+.centerGridImg {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  background: #fff;
+}
+
+.centerGridImg img {
+  width: 100%;
+  height: auto;         
+  aspect-ratio: 1/1;   
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: none;
+  display: block;
+}
+
+.centerGridImg figcaption {
+  margin-top: 0.3em;
+  font-size: 0.95em;
+  color: #444;
+  text-align: center;
+  background: transparent;
+  padding: 0.2em 0 0.4em 0;
+}
+
+
+ul {
+  text-align: center;
+  margin-top: 510px;
+  font-size: 25px;
+  color: hotpink;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-top: 115px;
+}
