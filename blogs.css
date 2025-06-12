@@ -5,19 +5,10 @@
 }
 
 body {
-        font-family:'Times New Roman', Times, serif;
-        color: rgb(238, 145, 161);
-        font-size: larger;
-        background: url("./Images/blogbackground.jpg");
+        background: url("./Images/bloghomepageee.jpg");
         background-size: cover;
         height: 100vh;
     }
-
-body{
-    margin: 2px;
-    padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
-}
 
 .blogs{
     display: flex;
@@ -49,13 +40,13 @@ body{
     border-radius: 30px;
     flex-wrap: wrap;
     align-content: stretch;
-    height: 70vh;
+    height: 68vh;
 }
 
 .blog-box{
     width: 350px;
-    background-color: #eadfcb;
-    border: 3.5px solid hotpink;
+    background-color: rgb(222, 236, 252);
+    border: 3.5px solid rgb(72, 110, 143);
     margin: 20px;
     border-radius: 20px;
     height: 100%;
@@ -116,18 +107,6 @@ body{
     .blog-text a:hover{
     color:hotpink;
     transition: all ease 0.3s;
-    }
-
-    ul{
-        text-align: center;
-        margin-top: 600px;
-    }
-
-    .footer-content{
-        text-align: center;
-        font-size: 15px;
-        letter-spacing: 2px;
-        color: hotpink;
     }
 
 

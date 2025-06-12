@@ -1,15 +1,14 @@
 nav{
-    background-color: none;
-    height: 60px;
+    background-color:none;
+    height: 2.5cm;
     width: 100%;
-    border-top: 2px #ffd0df;
     position: sticky;
+    margin-bottom: 70px ;
 }
 
 nav ul{
-    font-style: italic;
-    font-family:'Times New Roman', Times, serif;
-    color: black;
+    font-family:'Playfair Display', serif ;
+    color: red;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -19,22 +18,27 @@ nav ul{
 
 
 nav ul li{
-    display: inline-block;
-    font-size: 25px;
+    font-style: italic;
+    color: red;
+    display:inline-block;
+    font-size: 23px;
     margin: 30px;
+    margin-bottom: 8px;
+    margin-top: 10px;
     text-transform: uppercase;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
     text-align: center;
+}
 
 .hover-oval.active-link{
-background-color: #ffd0df;
+background-color:rgb(255, 212, 212);
 border: 2px solid #ffd0df;
 border-radius: 999px;
 }
 
 
 .menulinks a{
-    color: black;
+    color: red;
     text-decoration: none;
 }
 
@@ -43,6 +47,7 @@ padding: 8px 16px;
 text-decoration: none;
 color: none;
 transition: all 0.3s ease;
+
 }
 
 .hover-oval:hover {
@@ -52,9 +57,9 @@ transition: all 0.3s ease;
 }
 
 footer {
-    color: white;
-    padding: 2px 0;
-    text-align: left;
+    color: red;
+    padding: 30px 0;
+    text-align: center;
 }
                                                                     
 .footer-content {
@@ -80,6 +85,4 @@ main {
 
 footer {
     margin-top: auto;
-}
-
 }

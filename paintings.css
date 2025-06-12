@@ -12,12 +12,12 @@
 
 .centerGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 0.3rem; /* Small gap for separation */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0.3rem; 
   width: 100%;
-  max-width: 420px;   /* 3 x 140px columns, adjust as needed */
-  height: 360px;      /* 3 x 120px rows */
+  max-width: 30cm; 
+  height: 30cm;  
   margin: 2rem auto;
   align-self: flex-start;
 }
@@ -30,7 +30,7 @@
   border-radius: 4px;
   box-shadow: none;
   background: #fff;
-  display: block;
+  display:block;
 }
 
 .centerGridImg img,
