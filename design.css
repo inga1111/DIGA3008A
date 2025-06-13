@@ -58,7 +58,6 @@ h3{
     border-radius: 30px;
     flex-wrap: wrap;
     align-content: stretch;
-    height: 70vh;
 }
 
 .design-box{
@@ -133,14 +132,6 @@ h3{
         text-align: center;
         margin-top: 600px;
     }
-
-    .footer-content{
-        text-align: center;
-        font-size: 15px;
-        letter-spacing: 2px;
-        color: hotpink;
-    }
-
 
 .design-box {
     transition: all 0.3s ease;

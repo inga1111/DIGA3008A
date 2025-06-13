@@ -11,10 +11,11 @@ body {
 }
 
 .about {
-  background-color:  rgb(106, 181, 227);
-  border: 10px solid rgb(106, 181, 227);
+  background-color:  rgb(158, 225, 247);
+  border: 1px solid rgb(158, 225, 247);
   border-radius: 999px;
-  margin-top: 170px;
+  margin-top: 150px;
+  margin-bottom: 150px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 27px;
   color:  #f6dfc3;
@@ -28,13 +29,6 @@ body {
 ul {
     text-align: center;
     font-size: 25px;
-}
-
-footer {
-    text-align: center;
-    font-size: 18px;
-    letter-spacing: 2px;
-    margin-top: 75px;
 }
 
 .hero {
@@ -54,9 +48,10 @@ footer {
     font-weight: 400;
     font-family: 'Playfair Display', serif;
     letter-spacing: 2px;
-    color: rgb(126, 181, 223);
-    font-style: normal;
-    margin-top: 130px;
+    color: rgb(177, 221, 255);
+    font-style: italic;
+    margin-top: 80px;
+    margin-bottom: 10px
   }
   
   /* Smooth transition for the oval text */
@@ -99,8 +94,8 @@ footer {
   .cursor {
     display: inline-block;
     width: 2px;
-    height: 1rem;
-    background-color: #f30505;
+    height: 100px;
+    background-color: #fc60a9;
     margin-left: 2px;
     vertical-align: middle;
 }
