@@ -82,8 +82,8 @@ section{
     border: 1.5px solid rgb(201, 177, 141);
     margin: 20px;
     border-radius: 20px;
-    height: 18cm;
-    overflow: hidden;
+    height: 25cm;
+    overflow: wrap;
     }
     
     .profile-image{
@@ -109,11 +109,11 @@ section{
     
     .blog-text span{
     color: black;
-    font-size: 2rem;
+    font-size: 7rem;
     }
     
     .blog-text .blog-title{
-    font-size: 1.3rem;
+    font-size: 7rem;
     font-weight: 500;
     color: #000000;
     }
