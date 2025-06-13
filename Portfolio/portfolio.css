@@ -3,9 +3,9 @@
 h1{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(255, 201, 228);
-    margin-top: 1.5px;
+    margin-top: 10px;
     text-align: center;
-    background-color: rgb(255, 186, 228);
+    background-color: rgb(255, 212, 237);
 
 }
 
@@ -121,7 +121,7 @@ h1{
 }
 
 body {
-     background: url("./Images/officialbg.jpg");
+     background: url("../Images/finalbg.jpeg");
         background-size: cover;
         height: 100vh;
 }

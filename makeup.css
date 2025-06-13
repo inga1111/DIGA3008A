@@ -29,7 +29,7 @@
   object-fit: cover;
   border-radius: 4px;
   box-shadow: none;
-  background: #fff;
+  background: #fdffbd;
   display:block;
 }
 
@@ -54,7 +54,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  background: #fff;
+  background: #fdffbd;
 }
 
 .centerGridImg img {

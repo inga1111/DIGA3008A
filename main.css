@@ -101,3 +101,15 @@ main {
   color: var(--color4);
   transform: scale(1.1);
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe4f3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  max-width: 100%;
+  padding: 80px 80px;
+  margin: 40px;
+  max-height: 2000px;
+}
