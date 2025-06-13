@@ -6,7 +6,7 @@
 
 body {
     font-family:'Times New Roman', Times, serif;
-    background-color: #f3ece2;
+    background: url("./Images/designhomepage.JPG");
     background-size: cover;
     height: 100vh;
 }
@@ -14,8 +14,9 @@ body {
 h1{
     font-family: 'Times New Roman', Times, serif;
     color: hotpink;
-    margin-top: 1cm;
-    margin-bottom: 1cm;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    text-align: center;
 }
 
 h2{
@@ -24,17 +25,154 @@ h2{
     font-style: italic;
 }
 
-section{
+p{
     font-family:Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
     font-size: 17px;
-    margin-top: 0.2cm;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
+
+section{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-heading h2{
+    font-size: 25px;
+    color: rgb(232, 130, 147);
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap:wrap;
+    border: 1px pink;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 68vh;
+    margin-top: 3px;
+}
+
+.profile-box{
+    width: 20cm;
+    background-color: rgb(255, 235, 204);
+    border: 1.5px solid rgb(201, 177, 141);
+    margin: 20px;
+    border-radius: 20px;
+    height: 15cm;
+    overflow: hidden;
+    }
+    
+    .profile-image{
+     width:auto;  
+     height: 50vh; 
+     padding:0px;
+     border: hotpink;
+     display: flex;
+    }
+    
+    .profile-image img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    }
+    
+    .profile-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .blog-text span{
+    color: black;
+    font-size: 0.9rem;
+    }
+    
+    .blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #000000;
+    }
+    
+    .blog-text .blog-title:hover{
+    color: hotpink;
+    transition: all ease 0.3s;
+    }
+    
+    .blog-text p{
+    color:rgb(239, 124, 143);
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient:vertical;
+    overflow: hidden;     text-overflow: ellipsis;
+    margin: 20px 0px;
+    }
+    
+    .blog-text a{
+    color: black;
+    }
+    
+    .blog-text a:hover{
+    color:hotpink;
+    transition: all ease 0.3s;
+    }
+
+    .profile-box {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-box:hover {
+    animation: pulse 1.5s infinite;
+    box-shadow: 0 0 15px rgba(232, 130, 147, 0.6);
+    transform: translateY(-5px);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) translateY(-5px);
+        box-shadow: 0 0 15px rgba(232, 130, 147, 0.6);
+    }
+    50% {
+        transform: scale(1.02) translateY(-5px);
+        box-shadow: 0 0 20px rgba(232, 130, 147, 0.8);
+    }
+    100% {
+        transform: scale(1) translateY(-5px);
+        box-shadow: 0 0 15px rgba(232, 130, 147, 0.6);
+    }
+}
+
+
 
 .footer-content{
     text-align: center;
-    font-size: 15px;
+    font-size: 7px;
     letter-spacing: 2px;
     margin-top: 0.5cm;
     color: hotpink;

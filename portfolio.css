@@ -2,12 +2,14 @@
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-    color: hotpink;
-    margin-top: 65px;
+    color: rgb(255, 201, 228);
+    margin-top: 1.5px;
     text-align: center;
+    background-color: rgb(255, 186, 228);
+
 }
 
-.blogs{
+.portfolio{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,81 +17,80 @@ h1{
     padding: 40px;
 }
 
-.blog-heading{
+.portfolio-heading{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.blog-heading h2{
+.portfolio-heading h2{
     font-size: 25px;
-    color: rgb(213, 17, 115);
+    color: rgb(255, 58, 157);
 }
 
-.blog-container{
+.portfolio-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
     flex-wrap:wrap;
     border: 1px pink;
     border-radius: 30px;
     flex-wrap: wrap;
     align-content: stretch;
-    height: 10cm;
-    margin-left: 3cm;
+    margin-bottom: 10px;
+    height: 60vh;
+    margin-top: 10px;
 }
 
-.blog-box{
+.portfolio-box{
     width: 10cm;
-    background-color: pink;
-    border: 3.5px solid rgb(0, 0, 0);
-    margin: 20px;
-    border-radius: 20px;
-    height: 10cm;
+    background-color: #ebf9ff;
+    border: 1.5px solid rgb(141, 180, 201);
+    border-radius: 25px;
+    height: 11.5cm;
     overflow: hidden;
-    margin-left: 3cm;
+    margin-top: 20px;
     }
     
-    .blog-image{
+    .portfolio-image{
      width:auto;  
-     height: 21cm; 
+     height: 40vh; 
      padding:0px;
      border: hotpink;
      display: flex;
     }
     
-    .blog-image img{
+    .portfolio-image img{
     width: 100%;
     height:100%;
     object-fit: cover;
     object-position: center;
     }
     
-    .blog-text{
+    .portfolio-text{
     padding: 30px;
     display: flex;
     flex-direction:column;
     }
     
-    .blog-text span{
+    .portfolio-text span{
     color: black;
     font-size: 0.9rem;
     }
     
-    .blog-text .blog-title{
+    .portfolio-text .portfolio-title{
     font-size: 1.3rem;
     font-weight: 500;
     color: #000000;
     }
     
-    .blog-text .blog-title:hover{
-    color: rgb(108, 12, 60);
+    .portfolio-text .portfolio-title:hover{
+    color: rgb(255, 87, 171);
     transition: all ease 0.3s;
     }
     
-    .blog-text p{
+    .portfolio-text p{
     color:rgb(185, 65, 105);
     font-size: 0.9rem;
     display: -webkit-box;
@@ -100,147 +101,163 @@ h1{
     margin: 20px 0px;
     }
     
-    .blog-text a{
+    .portfolio-text a{
     color: black;
     }
     
-    .blog-text a:hover{
+    .portfolio-text a:hover{
     color:hotpink;
     transition: all ease 0.3s;
     }
 
+:root {
+    --luxury: #d4af37;
+    --drugstore: #6a5acd;
+    --clean: #50c878;
+    --vegan: #8a9a5b;
+}
 
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+body {
+     background: url("./Images/officialbg.jpg");
+        background-size: cover;
+        height: 100vh;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: rgb(255, 201, 223);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+h1 {
+    color: #f269a4;
+    margin-bottom: 10px;
+}
+
+h1 i {
+    margin-right: 12px;
+}
+
+p {
+    color: #777676;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #ff85a2;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #ff6b8b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 139, 0.3);
+}
+
+.brand-card {
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: #ebf9ff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.hidden {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.brand-logo {
+    height: 80px;
+    width: 80px;
+    margin: 0 auto 15px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.price-range {
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.tag {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#brandLink {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #ff85a2;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s;
+    font-size: 14px;
+}
+
+#brandLink:hover {
+    background-color: #ff6b8b;
+}
+
+#brandLink i {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+ .portfolio-box {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-box:hover {
+    animation: pulse 1.5s infinite;
+    box-shadow: 0 0 15px rgba(232, 130, 147, 0.6);
+    transform: translateY(-5px);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) translateY(-5px);
+        box-shadow: 0 0 15px rgba(232, 130, 147, 0.6);
     }
-    
-    body {
-            font-family:'Times New Roman', Times, serif;
-            color: rgb(238, 145, 161);
-            font-size: larger;
-            background: url("./Images/blogbackground.jpg");
-            background-size: cover;
-            height: 100vh;
-        }
-    
-    body{
-        margin: 2px;
-        padding: 0px;
-        font-family: 'Times New Roman', Times, serif;
+    50% {
+        transform: scale(1.02) translateY(-5px);
+        box-shadow: 0 0 20px rgba(232, 130, 147, 0.8);
     }
-    
-    .blogs{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 40px;
+    100% {
+        transform: scale(1) translateY(-5px);
+        box-shadow: 0 0 15px rgba(232, 130, 147, 0.6);
     }
-    
-    .blog-heading{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .blog-heading h2{
-        font-size: 25px;
-        color: rgb(232, 130, 147);
-    }
-    
-    .blog-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px 0px;
-        flex-wrap:wrap;
-        border: 1px pink;
-        border-radius: 30px;
-        flex-wrap: wrap;
-        align-content: stretch;
-        height: 70vh;
-    }
-    
-    .blog-box{
-        width: 350px;
-        background-color: #eadfcb;
-        border: 3.5px solid hotpink;
-        margin: 20px;
-        border-radius: 20px;
-        height: 100%;
-        overflow: hidden;
-        }
-        
-        .blog-image{
-         width:auto;  
-         height: 40vh; 
-         padding:0px;
-         border: hotpink;
-         display: flex;
-        }
-        
-        .blog-image img{
-        width: 100%;
-        height:100%;
-        object-fit: cover;
-        object-position: center;
-        }
-        
-        .blog-text{
-        padding: 30px;
-        display: flex;
-        flex-direction: column;
-        }
-        
-        .blog-text span{
-        color: black;
-        font-size: 0.9rem;
-        }
-        
-        .blog-text .blog-title{
-        font-size: 1.3rem;
-        font-weight: 500;
-        color: #000000;
-        }
-        
-        .blog-text .blog-title:hover{
-        color: hotpink;
-        transition: all ease 0.3s;
-        }
-        
-        .blog-text p{
-        color:rgb(239, 124, 143);
-        font-size: 0.9rem;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient:vertical;
-        overflow: hidden;     text-overflow: ellipsis;
-        margin: 20px 0px;
-        }
-        
-        .blog-text a{
-        color: black;
-        }
-        
-        .blog-text a:hover{
-        color:hotpink;
-        transition: all ease 0.3s;
-        }
-    
-        ul{
-            text-align: center;
-            margin-top: 600px;
-        }
-    
-        .footer-content{
-            text-align: center;
-            font-size: 15px;
-            letter-spacing: 2px;
-            color: hotpink;
-        }
-    
-    
-    
+}
+

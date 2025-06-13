@@ -3,7 +3,7 @@ nav{
     height: 2.5cm;
     width: 100%;
     position: sticky;
-    margin-bottom: 70px ;
+    margin-bottom: 30px ;
 }
 
 nav ul{
@@ -38,7 +38,7 @@ border-radius: 999px;
 
 
 .menulinks a{
-    color: red;
+    color: rgba(78, 174, 233, 0.847);
     text-decoration: none;
 }
 
@@ -85,4 +85,30 @@ main {
 
 footer {
     margin-top: auto;
+}
+
+/* To Top Button */
+#toTopBtn {
+  display: none; 
+  position: fixed;
+  bottom: 1.875rem; 
+  right: 1.875rem;
+  z-index: 1000;
+  background-color: var(--color2);
+  font-weight: bold;
+  color: var(--arrow);
+  border: none;
+  border-radius: 50%;
+  width: 3rem; 
+  height: 3rem; 
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+#toTopBtn:hover {
+  background-color: var(--color2);
+  color: var(--color4);
+  transform: scale(1.1);
 }

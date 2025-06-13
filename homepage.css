@@ -5,14 +5,26 @@
 }
 
 body {
-    font-family:'Times New Roman', Times, serif;
-    color: hotpink;
-    font-size: 25px;
     background: url("./Images/homepage2.jpg");
     background-size: cover;
     height: 100vh;
 }
 
+.about {
+  background-color:  rgb(106, 181, 227);
+  border: 10px solid rgb(106, 181, 227);
+  border-radius: 999px;
+  margin-top: 170px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 27px;
+  color:  #f6dfc3;
+  text-decoration: none;
+}
+
+.about:hover{
+  color:rgb(33, 125, 182);                      
+  transform: translateY(-50%) scale (2);
+}
 ul {
     text-align: center;
     font-size: 25px;
@@ -22,7 +34,7 @@ footer {
     text-align: center;
     font-size: 18px;
     letter-spacing: 2px;
-    margin-top: 60px;
+    margin-top: 75px;
 }
 
 .hero {
@@ -44,7 +56,7 @@ footer {
     letter-spacing: 2px;
     color: rgb(126, 181, 223);
     font-style: normal;
-    margin-top: 70px;
+    margin-top: 130px;
   }
   
   /* Smooth transition for the oval text */
@@ -83,8 +95,40 @@ footer {
     .oval-text {
       font-size: 10vw;
     }
-    
-    .about-container {
-      flex-direction: column;
-    }
   }
+  .cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1rem;
+    background-color: #f30505;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.blinking {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    from, to { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+
+.blog-container {
+    perspective: 1000px;
+}
+
+.blog-box {
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.blog-box:hover {
+    transform: translateY(-5px) rotateX(5deg);
+}
+
+
+body {
+    opacity: 0;
+}
